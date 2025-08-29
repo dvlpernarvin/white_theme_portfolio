@@ -1,0 +1,24 @@
+.ofc-project {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.ofc-project::-webkit-scrollbar {
+  display: none;
+}
+
+.per-project {
+  width: 30%;
+  border-right: solid gray 1px;
+  height: 100vh;
+  overflow: scroll;
+  padding: 1%;
+}
+
+i {
+  color: red;
+}

@@ -1,0 +1,331 @@
+@media (max-width: 768px) {
+  /* General Mobile Adjustments */
+  body {
+    overflow-x: hidden;
+  }
+
+  .app-wrapper {
+    flex-direction: column !important;
+  }
+
+  .dp {
+    width: 100vw !important;
+    height: auto !important;
+  }
+
+  .mob-profile,
+  .mob-navbaar,
+  .menu-close {
+    display: block !important;
+  }
+
+  .pc-navbaar {
+    display: none !important;
+  }
+
+  /* Font Size Adjustments */
+  .f4 {
+    font-size: 1.8em !important;
+  }
+
+  .f3 {
+    font-size: 0.90em !important;
+  }
+
+  .f2,
+  .f1 {
+    font-size: 0.9em !important;
+  }
+
+  /* NavBar.css overrides */
+  .nav {
+    height: 100% !important;
+    flex-direction: column !important;
+    align-items: center;
+    padding-top: 1rem !important;
+    border: none !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #e6e6e6;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .nav-profile {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .nav-name {
+    display: block !important;
+    font-size: 0.9rem;
+  }
+
+  .nav-options-cont {
+    width: 90% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 0.2rem !important;
+    padding: 0.2rem !important;
+    justify-content: space-around;
+  }
+
+  .div-option {
+    flex: 1 1 auto !important;
+    height: auto !important;
+    padding: 0.5rem !important;
+    font-size: 0.8rem !important;
+    margin: 0.1rem !important;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+
+  .div-option:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .div-option:last-child::before {
+    display: none;
+  }
+
+  .menu-close {
+    display: block !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+
+  /* Home.css overrides */
+  .top-home-cont,
+  .bottom-home-cont {
+    height: auto !important;
+    padding: 1rem !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-boy-img {
+    display: none !important;
+  }
+
+  .home-main-row {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .name-title {
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+
+  .description-container {
+    max-width: 90% !important;
+    text-align: center;
+  }
+
+  .description-text {
+    font-size: 1em !important;
+  }
+
+  .typewriter {
+    font-size: 0.9em !important;
+  }
+
+  .logos {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .neu-btn,
+  .cv-download {
+    width: 0% !important;
+    padding: 0.75rem !important;
+    font-size: 1em !important;
+  }
+
+  .frame {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+
+  .contact-frame .neu-btn {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  /* Card.css overrides (for Projects) */
+  .card {
+    width: 95% !important;
+    margin: 1rem auto !important;
+    height: 25% !important;
+    padding: 1rem !important;
+    flex-direction: column;
+    box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  }
+
+  .card .no-ind {
+    width: 70px !important;
+    height: 70px !important;
+    top: 10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .card .content {
+    visibility: visible !important;
+    opacity: 1 !important;
+    top: 0 !important;
+    padding: 0.5rem !important;
+    text-align: center;
+  }
+
+  .view-button {
+    opacity: 1 !important;
+    position: relative !important;
+    bottom: 0 !important;
+    transform: none !important;
+    margin-top: 1rem;
+    width: 80%;
+  }
+
+  /* Contact.css overrides */
+  .contact-forms {
+    max-width: 95% !important;
+    padding: 1rem !important;
+    margin: 1rem auto !important;
+  }
+
+  .contact .boxc {
+    width: 95% !important;
+    height: auto !important;
+    padding: 1rem !important;
+    box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  }
+
+  .username,
+  .password,
+  .text-area {
+    width: 95% !important;
+    height: auto !important;
+    padding: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  }
+
+  .fields input,
+  .fields textarea {
+    width: calc(100% - 2vw) !important;
+    padding-left: 1vw !important;
+  }
+
+  .submitBtn {
+    width: 95% !important;
+    padding: 1rem !important;
+    justify-content: center !important;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .submitBtn .neu-btn {
+    width: 80% !important;
+  }
+
+  /* Experience.css overrides */
+  .left-exp,
+  .right-exp,
+  .exp-bottom-left {
+    width: 100% !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .small-blocks {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .small-block-child,
+  .c-details,
+  .ex-c-detils {
+    width: 95% !important;
+    padding: 0.5rem !important;
+    margin: 0.5rem auto;
+  }
+
+  .no-block {
+    display: none !important;
+  }
+
+  /* ProgressBar.css overrides */
+  .chart--item {
+    width: clamp(10px, 6vw, 20px) !important;
+    height: auto !important;
+    margin: 0.5rem 0 !important;
+    padding: 0.25rem !important;
+  }
+
+  /* ProjectDetail.css overrides */
+  .project-detail-container {
+    padding: 1rem !important;
+  }
+
+  .project-title {
+    font-size: 1.8rem !important;
+  }
+
+  .project-content {
+    gap: 1rem !important;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .links-container {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Project.css overrides */
+  .per-project {
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    padding: 0.5rem !important;
+  }
+
+  /* TeachSkill.css overrides */
+  .skills-container {
+    width: 95% !important;
+    height: auto !important;
+    padding: 1rem !important;
+    margin: 1rem auto;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
+  }
+
+  .skill-category {
+    padding: 1rem !important;
+  }
+
+  .skill-item {
+    padding: 0.5rem !important;
+    font-size: 0.9rem !important;
+    min-height: auto !important;
+  }
+}

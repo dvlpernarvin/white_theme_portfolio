@@ -1,0 +1,119 @@
+.contact-forms {
+  margin: 1rem auto;
+  max-width: 70rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  padding: 2rem;
+}
+
+.contact .boxc {
+  padding: 1rem 1.5rem;
+  width: 100%;
+  background: none;
+  color: gray;
+  font-size: 1.6rem;
+  text-transform: none;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  width: 50vw;
+  height: 80vh;
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+}
+
+.contact-form {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.contact form .box:focus {
+  box-shadow: var(--box-shadow-inset);
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  width: 100%;
+}
+
+.textfield span {
+  font-size: 1.2rem;
+}
+
+.textfield div {
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.fields input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  height: 100%;
+  width: calc(100% - 1vw);
+  padding-left: 1vw;
+}
+
+.username,
+.password {
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  width: 90%;
+  height: 7vh;
+}
+
+.text-area {
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  width: 90%;
+  height: 20vh;
+}
+
+.dfc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fields textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  height: 100%;
+  width: calc(100% - 1vw);
+  padding-left: 1vw;
+  resize: none;
+}
+
+.submitBtn {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding-right: 5vw;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: space-evenly;
+}

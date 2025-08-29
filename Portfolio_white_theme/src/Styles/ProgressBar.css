@@ -1,0 +1,51 @@
+.chart {
+  height: 100%;
+  width: 100%;
+}
+
+.chart--grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.chart--item {
+  width: 2vw;
+  height: 100%;
+  border-radius: 2rem;
+  padding-top: 15%;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 1;
+  /* align-self: flex-end; */
+
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  border-radius: 5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  height: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.chart--item--inner {
+  background-image: linear-gradient(
+    120deg,
+    rgb(37, 180, 180),
+    rgb(40, 119, 119),
+    darkcyan,
+    rgb(37, 180, 180)
+  );
+  border-radius: 2rem;
+  /* height: 10%; */
+  opacity: 0.8;
+  width: 80%;
+}

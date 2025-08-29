@@ -1,0 +1,84 @@
+.exp-top {
+  height: auto;
+}
+
+.left-exp {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.right-exp {
+  width: 39vw;
+  height: 100%;
+}
+
+.exp-bottom {
+  height: 100%;
+  width: 100%;
+  padding-top: 5vh;
+}
+
+.exp-bottom-left {
+  width: 80%;
+  height: 100%;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+  gap: 4vh;
+}
+
+.small-blocks {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3vh;
+}
+
+.small-block-child {
+  width: 30%;
+  height: 8vh;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.c-details {
+  display: flex;
+  justify-content: unset !important;
+  width: 100%;
+  height: 10vh;
+  padding: 3vh;
+}
+
+.no-block {
+  width: 20%;
+  opacity: 0.2;
+  font-size: 3rem;
+  border-right: solid #646a649e 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex-c-detils {
+  width: 80%;
+  margin-left: 5%;
+}
+
+.center-container {
+  text-align: center;
+  width: 100%;
+  /* Adjust this width based on your layout */
+  margin: 0 auto;
+  /* Centers the container horizontally */
+  padding-top: 3px;
+}
+
+.centered-text {
+  display: inline-block;
+  white-space: normal;
+  /* Allows text to wrap to the next line */
+}

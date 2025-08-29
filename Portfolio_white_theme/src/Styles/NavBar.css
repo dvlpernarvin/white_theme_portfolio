@@ -1,0 +1,152 @@
+.nav {
+  height: 100px;
+  background-color: #efeeee;
+  box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.07);
+  padding: 0 3vw;
+  list-style-type: none;
+  height: 100vh;
+  margin: 0;
+  width: 15vw;
+  border-radius: solid 1px red;
+  border-right: solid #646a649e 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-profile {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30vh;
+  align-items: center;
+}
+
+.profile-image {
+  margin: 1rem 0;
+  border: 2px solid #d2e3d2;
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747638885/hdefjcolkcdzkj3ewndz.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-position: top;
+}
+
+.nav-name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.7rem;
+  height: 1.2em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid currentColor;
+  animation: blink-cursor 0.8s steps(2) infinite;
+}
+
+@keyframes blink-cursor {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
+
+.nav-options-cont {
+  height: calc(100% - 40vh);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3vh;
+}
+
+.div-option {
+  display: block;
+  margin: 1vh 0;
+  border-radius: 5rem;
+  font-size: 1rem;
+  box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  color: dimgray;
+  color: darkcyan;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.div-option:last-child::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #06830a;
+  border-radius: 50%;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.div-option:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1),
+    -4px -4px 10px rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:focus {
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+.menu-close {
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+}
+
+.menu-close-icon-mob {
+  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\square-xmark-solid.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 5vw;
+  width: 5vw;
+}
